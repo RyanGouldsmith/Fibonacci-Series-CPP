@@ -8,8 +8,10 @@ int main ()
     int term=0,n;
     cout<<"Enter the number of elements required in the series";
     cin>>n;
+    
     for (int i = 0; i < n; i++)
         term += fib.produce_output(i);
+    
     cout << total << endl;
     return 0;
 }
