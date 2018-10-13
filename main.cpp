@@ -12,6 +12,6 @@ int main ()
     for (int i = 0; i < n; i++)
         term += fib.produce_output(i);
     
-    cout << total << endl;
+    cout << term << endl;
     return 0;
 }
