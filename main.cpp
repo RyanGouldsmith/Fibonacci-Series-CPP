@@ -1,12 +1,15 @@
 #include "fibonancci.h"
-#include <iostream>
+#include <iostream.h>
 using namespace std;
 
-int main (){
+int main ()
+{
     Fibonancci fib; 
-    int total=0;
-    for (int i = 0; i < 20; i++)
-        total += fib.produce_output(i);
+    int term=0,n;
+    cout<<"Enter the number of elements required in the series";
+    cin>>n;
+    for (int i = 0; i < n; i++)
+        term += fib.produce_output(i);
     cout << total << endl;
     return 0;
 }
