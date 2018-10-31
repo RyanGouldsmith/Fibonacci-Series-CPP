@@ -5,11 +5,11 @@ using namespace std;
 int main ()
 {
     Fibonancci fib; 
-    int term=0,n;
+    int term=0,userInput;
     cout<<"Enter the number of elements required in the series";
-    cin>>n;
+    cin>>userInput;
     
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < userInput; i++)
         term += fib.produce_output(i);
     
     cout << term << endl;
